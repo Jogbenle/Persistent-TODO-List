@@ -9,6 +9,8 @@ function renderItems() {
     for (const [idx, item] of object.entries(items)){
         const text = document.createElement("p")
         text.textContent = item;
+
+        itemsDiv.appendChild(text)
     }
 }
 
