@@ -36,5 +36,6 @@ function saveItems() {}
 function addItems() {}
 
 function removeItems(idx) {
-   
+    items.splice(idx,1)
+    renderItems()
 }
