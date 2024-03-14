@@ -2,6 +2,7 @@ let items = [];
 
 const itemsDiv = document.getElementById("items")
 const input = document.getElementById("itemInput")
+const storageKey = "items"
 
 
 function renderItems() {
@@ -34,7 +35,7 @@ function loadItems() {}
 
 function saveItems() {
     const stringItems = JSON.stringify(items)
-    localStorage.setItem()
+    localStorage.setItem(storageKey, stringItems)
 }
 
 function addItem() {
