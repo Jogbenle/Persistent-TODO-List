@@ -32,7 +32,10 @@ function renderItems() {
 
 function loadItems() {}
 
-function saveItems() {}
+function saveItems() {
+    const stringItems = JSON.stringify(items)
+    localStorage.setItem()
+}
 
 function addItem() {
     const value = input.value;
