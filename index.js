@@ -1,4 +1,4 @@
-let items = ["Hello", "234"];
+let items = [];
 
 const itemsDiv = document.getElementById("items")
 
@@ -18,5 +18,7 @@ function renderItems() {
 function loadItems() {}
 
 function saveItems() {}
+
+function addItem() {}
 
 function removeItems() {}
