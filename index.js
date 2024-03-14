@@ -13,6 +13,9 @@ function renderItems() {
         const text = document.createElement("p")
         text.textContent = item;
 
+        const button = document.createElement("button")
+        button.textContent = "Delete"
+
         itemsDiv.appendChild(text)
     }
 }
